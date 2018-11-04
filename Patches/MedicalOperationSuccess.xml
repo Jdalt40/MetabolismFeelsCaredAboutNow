@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="HungerRateMultiplier"]</xpath>
+      <value>    
+	    <capacityFactors>
+		  <li>
+	       <capacity>Metabolism</capacity>
+           <weight>1</weight>
+	       <useReciprocal>true</useReciprocal>
+		  </li>
+		</capacityFactors>
+	  </value>
+	</Operation>
+	
+</Patch>
